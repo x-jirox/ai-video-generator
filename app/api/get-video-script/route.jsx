@@ -1,4 +1,3 @@
-
 import { chatSession } from "../../../configs/AiModel";
 import { NextResponse } from "next/server";
 
