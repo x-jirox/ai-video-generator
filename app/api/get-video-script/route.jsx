@@ -13,5 +13,4 @@ export async function POST(req) {
     }catch(e){
         return NextResponse.json({'Error:':e})
     }
-    
 }
