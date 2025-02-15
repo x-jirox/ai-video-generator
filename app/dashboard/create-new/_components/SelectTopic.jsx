@@ -6,11 +6,11 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "/components/ui/select"
+} from "../../../../components/ui/select"
 import { Textarea } from '/components/ui/textarea';
 
 function SelectTopic({ onUserSelect }) {
-  const options = ['Custom Prompt', 'Random AI Story', 'Scary Story', 'Bed Time Story', 'Motivational Story'];
+  const options = ['Custom Prompt', 'Random AI Story', 'Scary Story', 'Historical Facts', 'Bed Time Story', 'Motivational Story'];
   const [selectedOption, setSelectedOption] = useState();
 
   return (
